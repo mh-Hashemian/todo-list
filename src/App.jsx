@@ -1,14 +1,19 @@
-import { Button } from 'reactstrap'
-import Header from '@/components/Header'
+import { Button, Container } from "reactstrap";
+import Header from "@/components/Header";
 
 function App() {
-
   return (
-    <>
+    <div className="bg-dark text-white min-vh-100">
       <Header />
-      <Button className='fw-light' color="primary">Click</Button>
-    </>
-  )
+      <main className="pt-3">
+        <Container>
+          <Button className="fw-light" color="primary">
+            Click
+          </Button>
+        </Container>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
