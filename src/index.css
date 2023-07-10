@@ -1,0 +1,21 @@
+* {
+  font-family: signika;
+}
+
+@font-face {
+  font-family: signika;
+  src: url(./assets/fonts/SignikaNegative-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: signika;
+  src: url(./assets/fonts/SignikaNegative-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: signika;
+  src: url(./assets/fonts/SignikaNegative-Light.ttf);
+  font-weight: 300;
+}
